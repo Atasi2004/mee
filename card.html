@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="Card.css">
+</head>
+<body>
+    <div id="box1">
+        <img id="img1" src="https://aflence.com/wp-content/uploads/2023/07/Shradha-Khapra-2-1024x879.webp">
+        <div id="removeFrnd" style="visibility: hidden;">Not friends</div>
+        <div id="done" style="visibility: hidden;" class="frnd">
+            Friends!
+        </div><br>
+        <div class="button">
+            <button id="add" style="margin-right:15px;" type="button">
+                Add friend
+            </button>
+            <button id="remove" type="button">
+                Remove friend
+            </button>
+    
+        </div>
+    </div>
+    <script>
+        // var add=document.getElementById("done").value;
+        // var remove=document.getElementById("removeFrnd").value;
+        addEventListener("click",addFriend);
+        function addFriend(){
+            document.getElementById("done").style.visibility="visible";
+        }
+        removeEventListener("click",removeFriend);
+        function removeFriend(){
+            document.getElementById("done").style.visibility="hidden";
+           
+        }
+        var con=document.querySelector()
+        // remove.EventListener("click",removeFriend()){
+        //     document.getElementById("done").style.visibility="hidden";
+        // }
+        // function removeFriend(){
+            // document.getElementById("done").style.visibility="hidden";
+        // }
+        // var istatus= document.querySelector("#done");
+        // var addFriend=document.querySelector("#add");
+        // var remove=document.querySelector("#remove");
+
+        // addFriend.addEventListener("click",function(){
+        //     istatus.innerHTML("Friends!");
+        //     istatus.style.color="green";
+        // })
+        // remove.removeEventListener("click",function(){
+        //     istatus.innerHTML(" ");
+        //     istatus.style.color="green";
+        // })
+    </script>
+    
+</body>
+</html>

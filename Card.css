@@ -1,0 +1,51 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-color: cornflowerblue;
+
+}
+#box1{
+    height:400px;
+    width:300px;
+    background-color: white;
+    box-shadow: 5px solid blue;
+    position: relative;
+    top:90px;
+    left:500px;
+    border-radius: 15px;
+    text-align: center;
+}
+#img1{
+    height:60%;
+    width:80%;
+    margin:30px;
+    margin-bottom: 0;
+    /* border:1px solid blue; */
+    border-radius:10px;
+    
+    
+}
+.buttton{
+    
+}
+#box1 button{
+    background-color: cadetblue;
+    color: white;
+    border-radius: 12px;
+    padding:12px 20px;
+    font-weight: 800px;
+    border:none;
+}
+#box1 #remove{
+    background-color: #dadada;
+    color: black;
+    font-weight: 700;
+}
+.frnd{
+    color:rgb(17, 36, 100);
+    font-weight: 800;
+}
